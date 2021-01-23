@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Query</title>
+</head>
+
+<body background="/images/8.jpg" align="center">
+    <br>
+    <a href="Home.html">HOME</a> &nbsp;
+    <a href="About.html">ABOUT US</a> &nbsp;
+    <a href="Services.html">SERVICES</a> &nbsp;
+    <a href="Gallery.html">GALLERY</a> &nbsp;
+    <a href="Query Form.html">GOT A QUERY?</a> &nbsp;
+    <a href="Contact.html">CONTACT US</a> &nbsp;
+    <a href="Login.html">LOGIN</a> &nbsp;
+    <br>
+    <br>
+    <hr>
+    <br>
+    <form action="mailto:someone@example.com" method="POST" enctype="text/plain">
+        <label for=""><em>Name:</em></label><br>
+        <input type="text" name="Name" autocomplete="new-password" required>
+        <br>
+        <br>
+        <label for=""><em>Email-id:</em></label><br>
+        <input type="email" name="Email-id" autocomplete="new-password" required>
+        <br>
+        <br>
+        <label for=""><em>Your Query Here:</em></label><br>
+        <textarea align="center" name="Query" id="" cols="30" rows="5" required></textarea>
+        <br> <br>
+        <label for="phone"><em>Mobile Number:</em></label><br>
+        <input type="number" pattern="[0-9] {10}" placeholder="**********" value="" name="phone" autofocus required><br>
+
+        <br>
+        <input type="submit">
+        <em></em>
+    </form>
+</body>
+
+</html>
